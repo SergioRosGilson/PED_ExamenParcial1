@@ -1,1 +1,9 @@
-pygame
+SQLAlchemy
+requests
+pydantic
+python-dotenv
+python-json-logger
+python-multipart
+fastapi
+uvicorn
+tk
