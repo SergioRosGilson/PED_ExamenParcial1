@@ -112,9 +112,9 @@ def build_interface():
 
 if __name__ == "__main__":
     # (Opcional) Iniciar el servidor en un hilo separado si se desea trabajar en local
-    # from server.server import iniciar_servidor
-    # import threading
-    # threading.Thread(target=iniciar_servidor, daemon=True).start()
+    from server.server import iniciar_servidor
+    import threading
+    threading.Thread(target=iniciar_servidor, daemon=True).start()
     
     demo = build_interface()
     demo.launch()
