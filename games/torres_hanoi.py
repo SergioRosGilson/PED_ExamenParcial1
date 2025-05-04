@@ -1,5 +1,3 @@
-# games/torres_hanoi.py
-
 class TorresHanoi:
     def __init__(self, n_discos):
         self.n_discos = n_discos
@@ -23,13 +21,11 @@ class TorresHanoi:
 
     def get_solucion(self):
         self.movimientos = []
-        # Se usa copia de las listas para no alterar el estado original
         self.resolver(self.n_discos, self.origen.copy(), self.destino, self.auxiliar.copy())
         return self.movimientos
 
     def estado_a_json(self):
         import json
-        # Convierte las varillas a una cadena JSON
         estado = {
             "origen": self.origen,
             "destino": self.destino,
@@ -37,3 +33,4 @@ class TorresHanoi:
             "movimientos": self.movimientos
         }
         return json.dumps(estado)
+

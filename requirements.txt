@@ -1,9 +1,10 @@
 SQLAlchemy
 requests
+pandas
 pydantic
 python-dotenv
 python-json-logger
 python-multipart
 fastapi
 uvicorn
-tk
+gradio

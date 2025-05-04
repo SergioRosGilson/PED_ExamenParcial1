@@ -1,6 +1,3 @@
-# PED_ExamenParcial1
-https://github.com/SergioRosGilson/PED_ExamenParcial1
-
 # Máquina Arcade Distribuida con IA
 
 Este proyecto es una implementación de una Máquina Arcade Distribuida en Python. La aplicación integra tres puzzles clásicos:
